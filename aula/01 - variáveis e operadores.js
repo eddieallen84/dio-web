@@ -5,3 +5,5 @@ let distanciaEmKm = 500;
 custoViagem = distanciaEmKm / kmPorLitro * precoCombustivel;
 
 console.log("R$" , custoViagem.toFixed(2));
+
+
