@@ -1,16 +1,12 @@
-const camisetaLucasAzul = true;
-const camisetaPedroAzul = false;
+const number = 15;
 
-const numero = 11;
+const isPair = (number % 2) === 0;
 
-const numeroPar = (numero % 2) === 0;
-
-console.log(numeroPar)
-
-if (numeroPar === true) {
-    console.log('é par!')
+if (number === 0){
+    console.log('O número é inválido')
+} else if (isPair){
+    console.log('O número é par!')
 }
-
-else{
-    console.log('é ímpar!')
-}
+    else {
+        console.log('O número é ímpar')
+    }
