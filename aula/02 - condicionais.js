@@ -68,3 +68,30 @@ if (imc < 18.5) {
 }
 
 console.log("\n*****************\n");
+
+/* Desconto no produto
+
+Condições de pagamento
+1 - Débito à vista, 10% de desconto 
+2 - Dinheiro ou pix, 15% de desconto 
+3 - 2x preço normal, sem juros 
+4 - acima de 2x, preço com juro de 10% 
+
+*/
+
+const precoEtiqueta = 150;
+const formaPagamento = 3;
+
+if (formaPagamento === 1) {
+  console.log("Preço final = R$", precoEtiqueta - precoEtiqueta * 0.1);
+} else if (formaPagamento === 2) {
+  console.log("Preço final = R$", precoEtiqueta - precoEtiqueta * 0.15);
+} else if (formaPagamento === 3) {
+  console.log("Preço final = R$", precoEtiqueta);
+} else if (formaPagamento === 4) {
+  console.log("Preço final = R$", precoEtiqueta + precoEtiqueta * 0.1);
+} else {
+  console.log("Forma de pagamento inválida");
+}
+
+console.log("\n*****************\n");
