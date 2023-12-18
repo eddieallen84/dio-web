@@ -29,11 +29,14 @@ class Pessoa {
 }
 
 const jose = new Pessoa("José Augusto", 70, 1.75);
+console.log(jose);
 console.log(jose.calcularImc());
 console.log(jose.classificarImc());
 const joao = new Pessoa("João Pedro", 77, 1.6);
+console.log(joao);
 console.log(joao.calcularImc());
 console.log(joao.classificarImc());
 const maria = new Pessoa("Maria Clara", 50, 1.65);
+console.log(maria);
 console.log(maria.calcularImc());
 console.log(maria.classificarImc());
