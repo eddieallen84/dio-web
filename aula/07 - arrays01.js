@@ -10,6 +10,8 @@ const soma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4];
 
 console.log(soma / 5);
 
+console.log('************')
+
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
